@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+name: Soft Wrap Words
+scope: text.plain.smart_soft_wrap.words
+hidden: true
+extends: Packages/SmartSoftWrap/Soft Wrap Characters.sublime-syntax
+contexts:
+  main:
+    - match: '(?:[A-Za-z0-9_]{{extend}})+'
+      scope: text.plain
+    - include: clusters

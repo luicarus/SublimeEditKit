@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+name: Soft Wrap Characters
+scope: text.plain.smart_soft_wrap.characters
+hidden: true
+variables:
+  # Common combining marks, variation selectors and emoji skin tones.
+  extend: '[\p{M}\x{FE0E}\x{FE0F}\x{1F3FB}-\x{1F3FF}]*'
+  regional_pair: '[\x{1F1E6}-\x{1F1FF}]{2}'
+  cluster: '(?:{{regional_pair}}|[^\r\n]){{extend}}(?:\x{200D}[^\r\n]{{extend}})*'
+contexts:
+  main:
+    - include: clusters
+  clusters:
+    # Sublime's syntax regex engine does not implement the \X escape.
+    - match: '{{cluster}}'
+      scope: text.plain

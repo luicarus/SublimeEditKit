@@ -1,0 +1,82 @@
+{
+  "build": "4215",
+  "baseline": false,
+  "results": [
+    {
+      "name": "english_can_split",
+      "passed": true,
+      "start": [
+        563.0,
+        0.0
+      ],
+      "end": [
+        53.0,
+        37.0
+      ]
+    },
+    {
+      "name": "chinese_after_space",
+      "passed": true,
+      "start": [
+        560.0,
+        0.0
+      ],
+      "end": [
+        320.0,
+        37.0
+      ]
+    },
+    {
+      "name": "chinese_after_english",
+      "passed": true,
+      "start": [
+        542.0,
+        0.0
+      ],
+      "end": [
+        288.0,
+        37.0
+      ]
+    },
+    {
+      "name": "preserve_english_word",
+      "passed": true,
+      "start": [
+        18.0,
+        37.0
+      ],
+      "end": [
+        88.0,
+        37.0
+      ]
+    },
+    {
+      "name": "restore_original_state_and_buffer",
+      "passed": true
+    },
+    {
+      "name": "do_not_replace_python_syntax",
+      "passed": true
+    },
+    {
+      "name": "keep_combining_marks_and_emoji_together",
+      "passed": true
+    },
+    {
+      "name": "do_not_replace_custom_plain_text_syntax",
+      "passed": true
+    },
+    {
+      "name": "auto_enable_plain_text",
+      "passed": true
+    },
+    {
+      "name": "viewport_reflow_without_text_changes",
+      "passed": true
+    },
+    {
+      "name": "loaded_txt_auto_enable_and_saved_bytes_unchanged",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "caption": "SmartSoftWrap: Soft Wrap - Allow English Word Splitting",
+        "command": "smart_soft_wrap_set_mode",
+        "args": {"mode": "characters"}
+    },
+    {
+        "caption": "SmartSoftWrap: Soft Wrap - Preserve English Words",
+        "command": "smart_soft_wrap_set_mode",
+        "args": {"mode": "words"}
+    },
+    {
+        "caption": "SmartSoftWrap: Soft Wrap - Restore Original",
+        "command": "smart_soft_wrap_set_mode",
+        "args": {"mode": "off"}
+    }
+]

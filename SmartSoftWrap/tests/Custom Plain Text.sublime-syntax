@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+name: SmartSoftWrap Custom Plain Text Fixture
+file_extensions: [smartsoftwrap_fixture]
+scope: text.plain
+hidden: true
+contexts:
+  main:
+    - match: '[A-Z]+'
+      scope: keyword.other.fixture

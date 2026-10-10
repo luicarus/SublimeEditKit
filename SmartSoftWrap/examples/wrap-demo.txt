@@ -1,0 +1,7 @@
+这是显示折行测试，调整窗口宽度，原始内容不会产生额外换行。
+
+哈基米哈基米哈基米哈基米哈基米哈基米哈基米哈基米哈基米哈基米 hajimi 哈基米哈基米哈基米哈基米哈基米哈基米哈基米哈基米哈基米
+哈基米哈基米哈基米哈基米哈基米哈基米哈基米哈基米哈基米哈基米 hajimi哈基米哈基米哈基米哈基米哈基米哈基米哈基米哈基米哈基米
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz
+
+组合字符：é ä；emoji：👩‍💻 👨‍👩‍👧‍👦 👍🏽 🇨🇳 🇺🇸。
